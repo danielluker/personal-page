@@ -4,7 +4,7 @@
   float: left;
   background: #08233e;
   opacity: 0.8;
-  filter: alpha(opacity=80);
+  filter: alpha(opacity=90);
   position: absolute;
   z-index: -1;
 }
@@ -15,6 +15,12 @@ html,body{
   font-family: Helvetica Neue, Helvetica, Arial;
   color: #ffffff;
   height: 100%;
+  /*background-image: url(../files/bg.jpg) no-repeat center center fixed;*/
+  background: url(../files/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .intro-header {
