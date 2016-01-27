@@ -1,8 +1,27 @@
+#transy{
+  width: 100%;
+  height: 100%;
+  float: left;
+  background: #08233e;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+  position: absolute;
+  z-index: -1;
+}
+
+html,body{
+  margin:0;
+  padding:0;
+  font-family: Helvetica Neue, Helvetica, Arial;
+  color: #ffffff;
+  height: 100%;
+}
+
 .intro-header {
   width: 100%;
   text-align: center;
   float: center;
-  background-image: url(../files/desktop-photo.jpg);
+  /*background-image: url(../files/desktop-photo.jpg);*/
 }
 
 
