@@ -4,9 +4,15 @@
   float: left;
   background: #08233e;
   opacity: 0.8;
-  filter: alpha(opacity=90);
+  filter: opacity(80%);
   position: absolute;
-  z-index: -1;
+  z-index: 0;
+}
+
+#wrapper{
+width: 100%;
+margin: 0 auto;
+z-index: 1;
 }
 
 html,body{
@@ -28,6 +34,7 @@ html,body{
   text-align: center;
   float: center;
   /*background-image: url(../files/desktop-photo.jpg);*/
+  background-color: #08233e;
 }
 
 
