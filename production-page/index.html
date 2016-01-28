@@ -5,19 +5,26 @@
 	<title>danielluker</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="styles/normalize.css" media="screen">
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
 
-	<!-- Latest compiled and minified CSS -->
+	<!-- For production, uncomment the next section
+	!- - Latest compiled and minified CSS - -
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-
-	<!-- Optional theme -->
+	!- - Fonts (Font Awesome) - -
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+	!- - Optional theme - -
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+	-->
+
+	<!-- For offline development only -->
+	<!-- Compiled and minified css -->
+	<link rel="stylesheet" href="offline/bootstrap.min.css">
+	<!-- FontAwesome -->
+	<link rel="stylesheet" href="offline/font-awesome/css/font-awesome.min.css">
+	<!-- /offline-dev -->
 
 	<!-- Custom styles for this template -->
 	<link href="styles/sticky-footer.css" rel="stylesheet">
-
-	<!-- Custom Fonts -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
 	<!-- Custom Stylesheet -->
 	<link rel="stylesheet" type="text/css" href="styles/stylesheet.css" media="screen">
@@ -38,8 +45,8 @@
 
 	</head>
 	<body>
-		<div id="transy"></div>
 		<div id="wrapper">
+		<div class="transy" id="blue"></div>
 		<div class="intro-header">
 			<div class="container">
 				<div class="row">
@@ -69,10 +76,13 @@
 			<!-- /.container -->
 		</div>
 		<!-- /.intro-header -->
-		<div class="container">
-			<div class="row full-width" style="margin-right:0px; margin-left:0px;">
+		<div class="container first-section">
+			<div class="row text-center intro top-buffer">
+				<p>motivated young professional with a strong analytical background <br/>and a passion for <strong>software engineering</strong> and problem-solving</p>
+			</div>
+			<div class="row full-width" id="buttons">
 				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
-					<a href="#">
+					<a href="#experience">
 						<div class="octagon">
 							<div class="octagon1">
 								<div style="position:relative;">
@@ -84,7 +94,7 @@
 					</a>
 				</div>
 				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
-					<a href="#">
+					<a href="#education">
 						<div class="octagon">
 							<div class="octagon1">
 								<div style="position:relative;">
@@ -96,7 +106,7 @@
 					</a>
 				</div>
 				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
-					<a href="#">
+					<a href="#software-skills">
 						<div class="octagon">
 							<div class="octagon1">
 								<div style="position:relative;">
@@ -144,6 +154,36 @@
 					</a>
 				</div>
 			</div>
+		</div> 
+		<!-- /.container -->
+		<div class="transy" id="green"></div>
+		<div class="container section">
+			<a name="experience"></a>
+			<div class="row experience">
+				<div class="col-xs-12 col-sm-6 col-md-4">
+					<h2>work experience</h2>
+				</div>
+			</div>
+		</div>
+		<!-- /.container -->
+		<div class="transy" id="red"></div>
+		<div class="container section">
+			<a name="education"></a>
+			<div class="row experience">
+				<div class="col-xs-12 col-sm-6 col-md-4">
+					<h2>education</h2>
+				</div>
+			</div>
+		</div>
+		<!-- /.container -->
+		<div class="transy" id="yellow"></div>
+		<div class="container section">
+			<a name="software-skills"></a>
+			<div class="row experience">
+				<div class="col-xs-12 col-sm-6 col-md-4">
+					<h2>software skills</h2>
+				</div>
+			</div>
 		</div>
 		<!-- /.container -->
 		<!-- <footer class="footer">
@@ -158,12 +198,19 @@
 			</div>
 		</footer> -->
 
-		<!-- Latest compiled and minified JQuery -->
+		<!-- For production, uncomment the next two scripts 
+		<!- - Latest compiled and minified JQuery - ->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js">
 		</script>
-		<!-- Latest compiled and minified Bootstrap JavaScript -->
+		<!- - Latest compiled and minified Bootstrap JavaScript - ->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous">
 		</script>
+		-->
+
+		<!-- For offline dev only -->
+		<script type="text/javascript" src="offline/jquery.js"></script>
+		<script type="text/javascript" src="offline/bootstrap.min.js"></script>
+
 		</div>
 	</body>
 </html>

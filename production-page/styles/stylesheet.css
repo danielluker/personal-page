@@ -1,12 +1,77 @@
-#transy{
+html,body{height:100%;}
+
+.container {
+    height:100%;
+}
+
+.fill{
+    width:100%;
+    height:100%;
+    min-height:100%;
+    background-color:#990000;
+    padding:10px;
+    color:#efefef;
+}
+
+.intro {
+  color: white;
+  font-size: 25px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.top-buffer {
+  margin-top: 20px;
+}
+
+.experience {
+
+}
+
+.first-section {
+  height: 73vh; /* Not sure this works on mobiles*/
+}
+
+.section {
+  height: 100vh;
+}
+
+.transy{
   width: 100%;
-  height: 100%;
+  height: 100vh;
   float: left;
-  background: #08233e;
   opacity: 0.8;
   filter: opacity(80%);
   position: absolute;
   z-index: 0;
+}
+
+#buttons {
+ /* position: relative;
+  top: 30%;
+  transform: translateY(-50%);*/
+}
+
+#blue {
+  background: #08233e;
+}
+
+#green {
+  background: green;
+  opacity: 0.7;
+  clear:both;
+}
+
+#red {
+  background: red;
+  opacity: 0.6;
+  clear:both;
+}
+
+#yellow {
+  background: yellow;
+  opacity: 0.6;
+  clear:both;
 }
 
 #wrapper{
