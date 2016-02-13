@@ -162,8 +162,6 @@ html,body{
   -webkit-filter:brightness(50%);
   -moz-filter:brightness(50%);
   filter: url(#brightness);
-  filter:brightness(50%);
-
 }
 .octagon h3 {
   display: none;
