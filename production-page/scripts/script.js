@@ -7,3 +7,5 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phon
 	$(".octagon img").css('filter', 'url(#brightness)');
 	$(".octagon img").css('filter', 'brightness(50%)');
 }
+
+alert(navigator.userAgent);
