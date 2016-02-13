@@ -67,6 +67,10 @@ html,body{height:100%;}
   margin-right: 0;
 }
 
+a {
+  color: inherit;
+}
+
 #buttons {
  /* position: relative;
   top: 30%;
@@ -168,9 +172,9 @@ html,body{
   left: 0;
   width: 100%;
   color: white;
+  text-align: center;
 }
 .octagon:hover h3 {
-  text-align: center;
   display: block;
   filter:brightness(100%);
 }
