@@ -1,6 +1,16 @@
 html,
 body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica Neue, Helvetica, Arial;
+    color: #ffffff;
     height: 100%;
+    /*background-image: url(../files/bg.jpg) no-repeat center center fixed;*/
+    background: url(../files/bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .container {
@@ -68,6 +78,11 @@ body {
     margin-right: 0;
 }
 
+.home-buttons {
+    padding-top: 25px;
+    text-align: center;
+}
+
 a {
     color: inherit;
 }
@@ -123,21 +138,6 @@ a {
 
 #education-blurb {
     font-size: 18px;
-}
-
-html,
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Helvetica Neue, Helvetica, Arial;
-    color: #ffffff;
-    height: 100%;
-    /*background-image: url(../files/bg.jpg) no-repeat center center fixed;*/
-    background: url(../files/bg.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
 }
 
 .intro-header {
