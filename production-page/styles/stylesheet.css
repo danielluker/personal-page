@@ -80,7 +80,6 @@ body {
 
 .home-buttons {
     padding-top: 25px;
-    text-align: center;
 }
 
 a {
@@ -136,7 +135,7 @@ a {
     z-index: 1;
 }
 
-#education-blurb {
+.blurb {
     font-size: 18px;
 }
 
