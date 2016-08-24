@@ -1,0 +1,13 @@
+<div class="mini-page" *ng-for="category of blurbs">
+	<a href="{'#' + category[1]}">
+		<div class="circle">
+			<div>
+				<img src="{'files/' + category[1]}" alt="{category[1]}" width="150" height="150">
+			</div>
+		</div>
+		<h1 style="{category[0].indexOf('<br/>') > -1 ? 'top:40px;' : ''}">{category[0]}</h1>
+		<div class="blurb">
+			{category[2]}
+		</div>
+	</a>
+</div>
